@@ -37,7 +37,7 @@ var str_fun_var = function () {
     var slice_str = string_var.slice(22);
     console.log(`Output using substring is= ${sub_str}& using slice is= ${slice_str}`);
     console.log("-------------------------------------------------------");
-    var end_with = string_var.endsWith("up");
+    var end_with = srt_trim.endsWith("up");
     console.log(`The given string is ending with "up" is ${end_with}.`);
 
     console.log("-------------------------------------------------------");
