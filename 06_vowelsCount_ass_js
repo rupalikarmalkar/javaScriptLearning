@@ -1,0 +1,60 @@
+function count_vowels(){
+    var str="I Love JavaScript";
+    var str1=str.toLowerCase();
+    count=0;
+    for (let index = 0; index < str1.length; index++) {
+        var char = str1.charAt(index);
+
+        if (char=="a"|| char=="e"|| char=="i"|| char=="o"|| char=="u") {
+            console.log(char);
+            count=count+1;
+        }
+        
+    }
+
+console.log(`The count is = ${count}`);
+}
+count_vowels();
+console.log("----------------------------------");
+
+var add=0;
+for (let index = 0; index <=10; index++) {
+add=add+index;
+console.log(`${add}`);    
+}
+console.log("----------------------------------");
+
+function square_addition(){
+    var add=0;
+
+    for (let index = 0; index <=5; index++) {
+        var square=index*index;
+         add=add+square;//0+1=1+4=5+9=14+16=30+25=55
+        // console.log(add);
+ }
+}
+square_addition();
+console.log("----------------------------------");
+
+
+var str1 = "Good Morning IT Champ";
+
+
+var str1_low = str1.toLowerCase();
+var vowels = "aeiou";
+var count = 0;
+
+
+for (let index = 0; index < str1_low.length; index++) {
+   
+    var spl=str1_low.charAt(index);
+     
+    if (vowels.includes(str1_low.charAt(index))) {
+         count = count + 1;
+    }
+
+}
+console.log(count);
+
+
+
