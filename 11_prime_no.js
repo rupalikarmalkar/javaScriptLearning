@@ -11,3 +11,5 @@ function primeNumber(numberToCheck){
   console.log(primeNumber(9));
   console.log(primeNumber(29));
   
+
+ 

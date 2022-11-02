@@ -7,13 +7,21 @@ const array3 = [...array1, ...array2];
 console.log(array3);
 
 var arrayOfNumbers = [1, 3, 7, 8, 9, 3, 7];
+console.log("========== Resize array========");
+console.log(arrayOfNumbers.length);
+arrayOfNumbers.length = 3;
+console.log(arrayOfNumbers.length);
+console.log(arrayOfNumbers);
+console.log("========== Resize array========");
+
+var arrayOfNumbers = [1, 3, 7, 8, 9, 3, 7];
 console.log(arrayOfNumbers);
 arrayOfNumbers.push(99);
 arrayOfNumbers.push(88);
 arrayOfNumbers.pop();
 console.log(arrayOfNumbers);
  var arrayLength = arrayOfNumbers.length;
-
+// array.lenght=0;//empty the array
 console.log(`Total number elements available in array: ${arrayLength}`);
 
 console.log(`Element at 4th Index is: ${arrayOfNumbers[4]}`);
