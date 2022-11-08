@@ -1,0 +1,35 @@
+const array_numbers = [20, 11, 40, 25, 23, 11, 9, 31, 60, 2, 19];
+let new_array = array_numbers.map((element) => {
+    return element + 10;
+
+});
+console.log(`Given array is :${array_numbers}`);
+console.log("");
+
+
+console.log("");
+
+
+
+console.log("___________________Add 10 in each array element_____________________________________");
+console.log("");
+
+console.log(` Aaiing 10 in array: ${new_array}`);
+let squar_array = array_numbers.map((element) => {
+    return element * element;
+
+});
+console.log("");
+
+console.log("___________________Square of  each array element_____________________________________");
+console.log("");
+console.log(`the square of array element is:  ${squar_array}`);
+console.log("");
+console.log("___________________Add Index value in each array element______________________");
+let indexadd_array = array_numbers.map((element, index) => {
+    return element + index;
+
+});
+console.log("");
+console.log(`Adding Idex value in each element : ${indexadd_array}`);
+
